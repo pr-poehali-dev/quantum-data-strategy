@@ -7,6 +7,8 @@ export interface Section {
   content?: string
   showButton?: boolean
   buttonText?: string
+  buttonLink?: string
+  customContent?: ReactNode
 }
 
 export interface SectionProps extends Section {
