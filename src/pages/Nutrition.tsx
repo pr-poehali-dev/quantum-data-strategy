@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import Icon from "@/components/ui/icon"
+import BrandLogo from "@/components/ui/brand-logo"
 
 const recipes = [
   { title: "Овсянка с бананом и мёдом", kcal: 380, time: "10 мин", tags: ["завтрак", "быстро"] },
@@ -24,6 +25,7 @@ const checklist = [
 export default function Nutrition() {
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
+      <BrandLogo />
       <div className="max-w-4xl mx-auto px-6 py-12">
         <a href="/" className="flex items-center gap-2 text-neutral-500 hover:text-[#FF6B35] transition-colors mb-8 text-sm">
           <Icon name="ArrowLeft" size={16} />

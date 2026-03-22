@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import Icon from "@/components/ui/icon"
 import { useState, useEffect } from "react"
+import BrandLogo from "@/components/ui/brand-logo"
 
 const tips = [
   { icon: "Droplets", text: "Выпей стакан холодной воды — тяга проходит за 3–5 минут" },
@@ -55,6 +56,7 @@ export default function QuitSmoking() {
 
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
+      <BrandLogo />
       <div className="max-w-4xl mx-auto px-6 py-12">
         <a href="/" className="flex items-center gap-2 text-neutral-500 hover:text-[#27AE60] transition-colors mb-8 text-sm">
           <Icon name="ArrowLeft" size={16} />

@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
 import Icon from "@/components/ui/icon"
 import { useState } from "react"
+import BrandLogo from "@/components/ui/brand-logo"
 
 const levels = ["Все", "Новичок", "Средний", "Продвинутый"]
 
@@ -28,6 +29,7 @@ export default function Workouts() {
 
   return (
     <div className="min-h-screen bg-[#0A0A0A] text-white">
+      <BrandLogo />
       <div className="max-w-4xl mx-auto px-6 py-12">
         <a href="/" className="flex items-center gap-2 text-neutral-500 hover:text-[#2C3E66] transition-colors mb-8 text-sm">
           <Icon name="ArrowLeft" size={16} />
