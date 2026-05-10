@@ -58,14 +58,7 @@ export const sections = [
     showButton: true,
     buttonText: "Начать путь",
     buttonLink: "#sections",
-    customContent: (
-      <div className="flex flex-wrap gap-4 mt-10">
-        <StatCard value="50+" label="рецептов" />
-        <StatCard value="30+" label="тренировок" />
-        <StatCard value="1000+" label="бросили курить" />
-        <StatCard value="4" label="раздела" />
-      </div>
-    ),
+
   },
   {
     id: "sections",
